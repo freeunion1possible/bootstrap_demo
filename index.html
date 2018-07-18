@@ -37,7 +37,7 @@
 						<i class="fa fa-home nav_icon">
 						</i>
 						<span class="nav-text">
-							Dashboard
+              Overview
 						</span>
 					</a>
 				</li>
@@ -46,34 +46,18 @@
 						<i class="fa fa-bar-chart nav_icon">
 						</i>
 						<span class="nav-text">
-							Charts
+              Dashboard
 						</span>
 					</a>
 				</li>
-				<li class="has-subnav">
+				<li>
 					<a href="javascript:;">
 						<i class="fa fa-list-ul" aria-hidden="true">
 						</i>
 						<span class="nav-text">
-							Extras
+              Vehicle
 						</span>
-						<i class="icon-angle-right">
-						</i>
-						<i class="icon-angle-down">
-						</i>
 					</a>
-					<ul>
-						<li>
-							<a class="subnav-text" href="faq.html">
-								FAQ
-							</a>
-						</li>
-						<li>
-							<a class="subnav-text" href="blank.html">
-								Blank Page
-							</a>
-						</li>
-					</ul>
 				</li>
 			</ul>
 			<ul class="logout">
@@ -102,7 +86,7 @@
 					<h1>
 						<a href="index.html">
 							<img src="images/logo.png" alt="" />
-							DEMO
+                Demo
 						</a>
 					</h1>
 				</div>
@@ -316,27 +300,27 @@
 						<div class="agile-bottom-grid">
 							<div id="graph6">
 								<div class="gh6-container">
-									<div class="left"><div class="circle"></div></div>
+									<div class="left"><div style="padding-top:10px;"><img src="images/timg.jpg" class="circlepic"></div></div>
 									<div class="right">
 										<div class="item greenRectangle">
 											<div class="item-icon">
 												<i class="fa fa-sun-o fa-fw" style="padding-top:10px;"></i>
 											</div>
-											<div class="item-text">1 New Request</div>
+											<div class="item-text">1 New Requests</div>
 											<div class="clearfix"></div>
 										</div>
 										<div class="item redRectangle">
 											<div class="item-icon" style="background-color:#2F80E7;">
 												<i class="fa fa-refresh fa-fw" style="padding-top:10px;"></i>
 											</div>
-											<div class="item-text"></div>
+                      <div class="item-text">0 Reissue Requests</div>
 											<div class="clearfix"></div>
 										</div>
 										<div class="item yellowRectangle">
 											<div class="item-icon" style="background-color:#A52A16;">
 												<i class="fa fa-close fa-fw" style="padding-top:10px;"></i>
 											</div>
-											<div class="item-text"></div>
+                      <div class="item-text">0 Revoke Requests</div>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -374,7 +358,7 @@
 							<div id="graph7">
 							</div>
 							<script>
-								genpipe('graph7');
+								genbarCategory('graph7');
 							</script>
 						</div>
 					</div>
