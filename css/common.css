@@ -1,0 +1,61 @@
+.gh6-container{
+	
+}
+.gh6-container .left,.gh6-container .right{
+	float:left;
+	padding-left:40px;
+	padding-top:100px;
+}
+.gh6-container .right{
+	margin-left:20px;
+}
+.gh6-container .right .item{
+	border: 1px; 
+	height:40px; 
+	width:350px;
+	border-radius: 4px;
+	margin-bottom:8px;
+}
+.gh6-container .right .item:last-child{
+	margin-bottom:0px;
+}
+.gh6-container .right .item .item-icon{
+	width: 80px;
+    height: 100%;
+	float:left;
+	text-align:center;
+	background-color:#48A552;
+	border-radius: 4px;
+}
+.item-text{
+	font-color: white;
+	text-align:center;
+	padding-bottom:10px;
+}
+.gh6-container .right .item .item-text{
+    height: 100%;
+	float:left;
+}
+.circle {
+  width: 120px;
+  height: 120px;
+  background-color:#7CCE4E;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.greenRectangle{
+	background-color:#4CB556;
+}
+.greenRectangle .item-icon{
+	background-color:#339900;
+}
+
+.redRectangle{
+	background-color:#5D9CEC;
+}
+
+.yellowRectangle{
+	background-color:#A5461A;
+}
