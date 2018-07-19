@@ -1,10 +1,19 @@
+[id^="graph"]{
+	height : 360px; 
+}
 .gh6-container{
-	
+	padding: 80px 0px 0px 40px;
+}
+.gh6-container .gh6-comments{
+	margin-left: 148px;
+    width: 350px;
+    display: inline-block;
+	text-align:center;
+	font-size:20px;
+	padding-bottom:12px;
 }
 .gh6-container .left,.gh6-container .right{
 	float:left;
-	padding-left:40px;
-	padding-top:100px;
 }
 .gh6-container .right{
 	margin-left:20px;
@@ -24,8 +33,11 @@
   height: 100%;
 	float:left;
 	text-align:center;
-	background-color:#48A552;
 	border-radius: 4px;
+}
+.gh6-container .right .item .item-icon .fa{
+	padding-top:10px;
+	color:white;
 }
 .item-text{
   padding-top:8px;
@@ -36,21 +48,15 @@
   height: 100%;
 	float:left;
 }
-.circle {
-  width: 120px;
-  height: 120px;
-  background-color:#7CCE4E;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
+.gh6-container .left .circle {
+font-size: 128px;
+    color: #7cce4e;
+    width: 128px;
+    text-align: center;
+    height: 128px;
+    line-height: 128px;
+	margin: 4px 0px 4px 0px;
 }
-
-.circlepic {
-  width: 120px;
-  height: 120px;
-}
-
-
 .greenRectangle{
 	background-color:#4CB556;
 }
@@ -61,7 +67,12 @@
 .redRectangle{
 	background-color:#5D9CEC;
 }
-
+.redRectangle .item-icon{
+	background-color:#2F80E7;
+}
 .yellowRectangle{
 	background-color:#A5461A;
+}
+.yellowRectangle .item-icon{
+	background-color:#A52A16;
 }
