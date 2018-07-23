@@ -509,7 +509,7 @@ body a:hover{
 }	
 button.btn.btn-default{
     outline: none;
-    padding: 10px 0 9px;
+    padding: 10px 0 10px;
     width: 15%;
     position: relative;
     background: #00bcd4;
@@ -538,7 +538,7 @@ button.btn.btn-default i.fa.fa-search{
 }	
 button.btn.btn-default{
     outline: none;
-    padding: 10px 0 9px;
+    padding: 10px 0 10px;
     width: 15%;
     position: relative;
     background: #00bcd4;
